@@ -11,7 +11,7 @@ jobs:
         uses: dodo4114/issue-to-notion@v1.1.1
         env:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
-          DATABASE_URL: https://www.notion.so/KK-1dddda0e105f4e6593f39a54650b45dc
+          DATABASE_URL: https://www.notion.so/c8b05b7c6d3144ae97d06f62f9461c7c?v=2dfdcf87f1514167b5796160d2ed1b0f
           PROPERTY_NAME : status           
           STATE_OPEN : active
           STATE_CLOSED : complete
