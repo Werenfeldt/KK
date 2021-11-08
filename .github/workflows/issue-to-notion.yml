@@ -13,5 +13,7 @@ jobs:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
           DATABASE_URL: https://www.notion.so/jwer/d46bc221840640d5b398065e609462bd?v=db65f84812ca4aaf82d51bc0b269acca
           PROPERTY_NAME : state          
+          STATE_OPEN : active
+          STATE_CLOSED : complete
 
 
