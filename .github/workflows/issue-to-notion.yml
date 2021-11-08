@@ -11,7 +11,7 @@ jobs:
         uses: dodo4114/issue-to-notion@v1.1.1
         env:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
-          DATABASE_URL: https://www.notion.so/jwer/d46bc221840640d5b398065e609462bd?v=db65f84812ca4aaf82d51bc0b269acca
+          DATABASE_URL: https://www.notion.so/jwer/7ad827ff95f0450b90a5e5a97bad7d84?v=35726b3655ef4c549cb3223f851f2346
           PROPERTY_NAME : state          
 
 
