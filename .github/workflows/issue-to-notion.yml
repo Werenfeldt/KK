@@ -1,0 +1,17 @@
+
+name: issue_to_notion
+on:
+  issues:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Notion Card Creator
+        uses: dodo4114/issue-to-notion@v1.1.1
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          DATABASE_URL: https://www.notion.so/KK-1dddda0e105f4e6593f39a54650b45dc
+          PROPERTY_NAME : status           
+          STATE_OPEN : active
+          STATE_CLOSED : complete
